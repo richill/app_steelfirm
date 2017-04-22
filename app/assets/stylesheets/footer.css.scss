@@ -1,0 +1,125 @@
+/*=========================================
+    Section: footer
+    File: _footer.html.erb
+  =========================================*/
+
+.footer_container {
+  background-color: #2a2a2a;
+}
+
+.footer_container .footer_inner_container {
+  width: 1200px;
+  margin: auto !important;
+  padding: 3px 0px;
+}
+
+
+// ----------------------
+//  footer_upper
+// ----------------------
+
+.footer_container .footer_upper {
+  padding: 45px 0px;
+}
+
+.footer_container .link_column .footer_header {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #fff !important;
+}
+
+.footer_container .link_column ul {
+  margin: 0px;
+  list-style: none;
+}
+
+.footer_container .link_column ul li a {
+  font-size: 13px;
+  text-transform: capitalize;
+  color: #535353 !important;
+}
+
+.footer_container .link_column ul li a:hover {
+  color: #e1965d !important;
+}
+
+.footer_container .link_column .footer_address {
+  font-size: 13px;
+  text-transform: capitalize;
+  color: #535353 !important;
+}
+
+.footer_container .link_column .footer_address a {
+  font-size: 13px;
+  text-transform: none !important;
+  color: #535353 !important;
+  border-bottom: 2px solid #e1965d;
+}
+
+
+
+// ----------------------
+//  footer_lower
+// ----------------------
+
+.footer_container .footer_lower {
+  border-top: 1px solid #535353;
+  padding: 35px 0px;
+}
+
+.footer_container .footer_lower ul {
+  margin: 0px;
+  list-style: none;
+}
+
+.footer_container .footer_lower ul li {
+  float: left;
+  margin-right: 15px;
+}
+
+.footer_container .footer_lower ul li a {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff !important;
+}
+
+.footer_container .copyright {
+  font-size: 12px;
+  text-transform: capitalize;
+  color: #fff !important;
+  margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
