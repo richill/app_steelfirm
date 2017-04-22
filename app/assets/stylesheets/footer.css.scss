@@ -31,6 +31,7 @@
   font-weight: bold;
   text-transform: capitalize;
   color: #fff !important;
+  margin-bottom: 15px;
 }
 
 .footer_container .link_column ul {
@@ -39,9 +40,9 @@
 }
 
 .footer_container .link_column ul li a {
-  font-size: 13px;
+  font-size: 11px;
   text-transform: capitalize;
-  color: #535353 !important;
+  color: #fff !important;
 }
 
 .footer_container .link_column ul li a:hover {
@@ -51,14 +52,14 @@
 .footer_container .link_column .footer_address {
   font-size: 13px;
   text-transform: capitalize;
-  color: #535353 !important;
+  color: #fff !important;
 }
 
 .footer_container .link_column .footer_address a {
   font-size: 13px;
   text-transform: none !important;
-  color: #535353 !important;
-  border-bottom: 2px solid #e1965d;
+  color: #fff !important;
+  border-bottom: 2px solid #DB5336;
 }
 
 .footer_container .link_column .footer_address a:hover {
