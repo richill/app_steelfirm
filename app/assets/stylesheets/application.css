@@ -16,3 +16,28 @@
  *= require_self
  *= require foundation_and_overrides
  */
+
+/*=========================================
+    general css content
+  =========================================*/
+
+/*black:  hex-#2a2a2a*/
+/*orange: hex-#C85F4B | rgb: 200, 95, 75*/
+/*yellow: hex-#D98F3D | rgb: 217, 143, 61*/
+
+
+.main_container {
+  padding: 0px !important;
+}
+
+.clear { 
+  clear: both; 
+}
+
+.hidden { 
+  display: none; 
+}
+
+.hide { 
+  display: none; 
+}

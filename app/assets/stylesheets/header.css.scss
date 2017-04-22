@@ -1,0 +1,63 @@
+/*=========================================
+    Section: header
+    File: _header.html.erb
+  =========================================*/
+
+.header_container {
+  background-color: #2a2a2a;
+  padding: 0px !important;
+}
+
+.header_inner_container {
+  background-color: #2a2a2a;
+  width: 1200px;
+  margin: auto !important;
+  padding: 3px 0px;
+}
+
+.left_content .fa-map-marker {
+  font-size: 14px !important;
+  color: #fff;
+}
+
+.address {
+  color: #fff;
+  font-size: 11px;
+  line-height: 30px;
+}
+
+.address a {
+  background: -webkit-linear-gradient(top, #C85F4B, #D98F3D);
+  background: linear-gradient(top, #C85F4B, #D98F3D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.address a:hover {
+  text-decoration: underline !important;
+}
+
+.right_content {
+  float: right;
+  padding: 3px 0px;
+}
+
+.right_content ul {
+  margin: 0px;
+  list-style: none;
+}
+
+.right_content ul li {
+  float: right;
+  margin-left: 15px;
+}
+
+.right_content ul li a {
+  color: #fff !important;
+}
+
+.right_content ul li a:hover {
+  color: #C85F4B !important;
+}
+
+
