@@ -22,6 +22,10 @@
   padding: 45px 0px;
 }
 
+.footer_upper img {
+  height: 60px;
+}
+
 .footer_container .link_column .footer_header {
   font-size: 16px;
   font-weight: bold;
@@ -57,6 +61,9 @@
   border-bottom: 2px solid #e1965d;
 }
 
+.footer_container .link_column .footer_address a:hover {
+  color: #fff !important;
+}
 
 
 // ----------------------

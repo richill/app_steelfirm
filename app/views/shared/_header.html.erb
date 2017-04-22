@@ -34,7 +34,12 @@
     <!-- lower_header -->
     <div class="lower_header">
       <div class="lower_inner_header">
-        <span class="left_content"><%= link_to "WESTERN CASTINGS LTD", "#" %></span>
+        <span class="left_content">
+          <%= link_to "#" do %>
+            <span class="logo"><%= image_tag "img_westcastlogo.png" %></span>
+            <span class="logotext">WESTERN CASTINGS LTD</span>
+          <% end %>
+        </span>
         <span class="right_content">
           <ul>
             <li>

@@ -8,7 +8,7 @@
   background-color: red;
 }
 
-.image_container {
+.homepage_container .image_container {
   background-color: green;
   background: url("img_homepg_03.jpg") no-repeat;
   background-position: 0% 60%;
@@ -17,23 +17,23 @@
   height: 600px;
 }
 
-.image_inner_container {
+.homepage_container .image_inner_container {
   width: 1200px;
   margin: auto !important;
   padding: 3px 0px;
 }
 
 
-.image_content {
+.homepage_container .image_content {
   padding: 150px 0px;
   width: 700px;
 } 
 
-.text_section {
+.homepage_container .text_section {
   margin-bottom: 40px;
 }
 
-.headline {
+.homepage_container .headline {
   color: #fff;
   font-weight: bold;
   font-size: 35px;
@@ -41,20 +41,20 @@
   margin-bottom: 22px;
 }
 
-.headline_info {
+.homepage_container .headline_info {
   color: #fff;
   font-size: 13px;
   line-height: 22px;
 }
 
-.btn_link a {
+.homepage_container .btn_link a {
   font-size: 14px;
   padding: 15px 25px;
   border-radius: 5px;
-  margin-right: 5px;
+  margin-right: 15px;
 }
 
-.view a {
+.homepage_container .view a {
   border: 2px solid #e1965d;
   background-color: #e1965d;
   color: #2a2a2a !important;
@@ -62,18 +62,18 @@
   font-weight: bold;
 }
 
-.view a:hover {
+.homepage_container .view a:hover {
   border: 2px solid #fff;
   background-color: #fff;
 }
 
-.contact a {
-  border: 2px solid #fff;
+.homepage_container .contact a {
+  border: 2px solid rgba(255,255,255, 0.5) !important;
   color: #fff !important;
   text-transform: capitalize;
   font-weight: bold;
 }
 
-.contact a:hover {
-  border: 2px solid #fff;
+.homepage_container .contact a:hover {
+  border: 2px solid rgba(255,255,255, 0.9) !important;
 }
