@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# app_steelwebsite
+website design for a steel company
+>>>>>>> 4e892bd9bc5ee294854dfc91f2decde4bd69d6e5
