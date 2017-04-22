@@ -4,60 +4,136 @@
   =========================================*/
 
 .header_container {
-  background-color: #2a2a2a;
   padding: 0px !important;
 }
 
-.header_inner_container {
+.header_container .header_inner_container {
+  padding: 0px !important;
+}
+
+// ----------------------
+//  upper_header
+// ----------------------
+
+.header_container .upper_header {
+  background-color: #2a2a2a;
+}
+
+.header_container .upper_header .upper_inner_header {
   background-color: #2a2a2a;
   width: 1200px;
   margin: auto !important;
   padding: 3px 0px;
 }
 
-.left_content .fa-map-marker {
+.header_container .upper_header .left_content .fa-map-marker {
   font-size: 14px !important;
   color: #fff;
 }
 
-.address {
+.header_container .upper_header .address {
   color: #fff;
   font-size: 11px;
   line-height: 30px;
 }
 
-.address a {
+.header_container .upper_header .address a {
   background: -webkit-linear-gradient(top, #C85F4B, #D98F3D);
   background: linear-gradient(top, #C85F4B, #D98F3D);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.address a:hover {
+.header_container .upper_header .address a:hover {
   text-decoration: underline !important;
 }
 
-.right_content {
+.header_container .upper_header .right_content {
   float: right;
   padding: 3px 0px;
 }
 
-.right_content ul {
+.header_container .upper_header .right_content ul {
   margin: 0px;
   list-style: none;
 }
 
-.right_content ul li {
+.header_container .upper_header .right_content ul li {
   float: right;
   margin-left: 15px;
 }
 
-.right_content ul li a {
+.header_container .upper_header .right_content ul li a {
   color: #fff !important;
 }
 
-.right_content ul li a:hover {
+.header_container .upper_header .right_content ul li a:hover {
   color: #C85F4B !important;
 }
+
+
+// ----------------------
+//  lower_header
+// ----------------------
+
+.lower_header {
+  // background-color: #fff;
+  // background-color: red;
+}
+
+.lower_inner_header {
+  // background-color: #fff;
+  // background-color: green;
+  width: 1200px;
+  margin: auto !important;
+  padding: 3px 0px;
+  position: relative;
+}
+
+.left_content a {
+  color: #2a2a2a;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.lower_header .right_content {
+  float: right;
+}
+
+.lower_header .right_content ul li {
+  margin: 0px;
+  list-style: none;
+}
+
+
+.lower_header .right_content ul li {
+  float: right;
+  margin-left: 25px;
+  text-align: right;
+  font-size: 13px;
+}
+
+.lower_header .right_content ul li .info {
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
