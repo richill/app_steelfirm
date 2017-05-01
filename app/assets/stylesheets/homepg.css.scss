@@ -86,54 +86,129 @@
   border: 2px solid rgba(255,255,255, 0.9) !important;
 }
 
+.homepage_container .text_content_container {
+  padding: 0px !important;
+}
 
+.homepage_container .light_section_container {
+  padding: 80px 0px !important;
+}
+
+
+.homepage_container .light_inner_section {
+  width: 1200px;
+  margin: auto !important;
+}
+
+.homepage_container .text_left_inner_section {
+  height: 185px;
+  color: #646464 !important;
+}
+
+
+.homepage_container .text_header {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.homepage_container .text_sub_header {
+  font-size: 12px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+.homepage_container .text_right_section {
+  text-align: right;
+  color: #fff;
+}
+
+.homepage_container .text_right_inner_section {
+  height: 185px;
+  padding: 40px 25px;
+  border-radius: 2px;
+  background: #DB5336; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#DB5336, #EB8320); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#DB5336, #EB8320); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#DB5336, #EB8320); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#DB5336, #EB8320); /* Standard syntax */
+}
+
+.homepage_container .text_right_inner_section .header {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.homepage_container .text_right_inner_section .divider {
+  border-bottom: 2px solid #fff;
+  margin: 10px 0px;
+}
+
+.homepage_container .sub_text {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.homepage_container .text_divider {
+  border-bottom: 1px solid #E6E6E6;
+  width: 1140px;
+  margin: auto !important;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+
+.homepage_container .info_left_section {
+  padding: 0px !important;
+  margin-bottom: 85px !important;
+}
+
+.homepage_container .info_right_section {
+  padding: 0px !important;
+}
+
+.homepage_container .section_content {
+  padding: 0px !important;
+}
+
+.homepage_container .section_content_icon {
+  padding: 0px !important;
+}
+
+.homepage_container .section_content_icon i {
+  color: #DB5336 !important;
+  font-size: 25px;
+}
+
+.homepage_container .section_header {
+  color: #2a2a2a; 
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.homepage_container .section_info {
+  color: #646464 !important;
+  font-size: 14px;
+  padding: 8px 0px;
+}
+
+.homepage_container .section_link a {
+  color: #2a2a2a; 
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 12px;
+  border-bottom: 2px solid #DB5336;
+}
+
+.homepage_container .section_link a:hover {
+  color: #DB5336; 
+  border-bottom: 2px solid #DB5336;
+}
 
 
 // --------------------
 //     workings
 // --------------------
-
-.text_content_container {
-  padding: 0px !important;
-}
-
-.light_section_container {
-  background-color: red;
-}
-
-
-.light_inner_section {
-  width: 1200px;
-  margin: auto !important;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
