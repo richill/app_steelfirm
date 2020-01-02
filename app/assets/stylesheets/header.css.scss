@@ -170,8 +170,37 @@
 // ----------------------
 //  responsive_header
 // ----------------------
-.tester {
-  background-color: red;
+
+.responsive_header_content {
+  border-top: 1px solid #fff;
+}
+
+.responsive_header_content ul {
+  margin: 0px;
+  list-style: none;
+  width: 1200px;
+  margin: auto !important;
+  background-color: #2a2a2a;
+}
+
+.responsive_header_content ul li {
+  font-size: 11px;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+
+.responsive_header_content ul li a {
+  color: #fff !important;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.responsive_header_content ul li a:hover {
+  color: #DB5336 !important;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 
 
