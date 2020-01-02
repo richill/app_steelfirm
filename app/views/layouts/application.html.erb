@@ -7,17 +7,15 @@
     <title><%= content_for?(:title) ? yield(:title) : "homepage" %></title>
 
     <%= stylesheet_link_tag    "application" %>
-    <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
   </head>
 
   <body>
-
     <div class="medium-12 columns main_container">
       <%= render 'shared/header' %>
       <%= yield %>
       <%= render 'shared/footer' %>
     </div>
-
   </body>
 </html>
