@@ -17,15 +17,26 @@
 }
 
 .homepage_container .image_inner_container {
-  width: 1200px;
-  margin: auto !important;
-  padding: 3px 0px;
+  padding: 3px 15px;
+  text-align: center;
+}
+@media only screen and (min-width: 1200px) {
+  .homepage_container .image_inner_container {
+    width: 1200px;
+    margin: auto !important;
+    padding: 3px 0px;
+    text-align: left;
+  }
 }
 
 .homepage_container .image_content {
-  padding: 150px 0px;
-  width: 700px;
+  padding: 100px 0px;
 } 
+@media only screen and (min-width: 1200px) {
+  .homepage_container .image_content {
+    width: 700px;
+  }
+}
 
 .homepage_container .text_section {
   margin-bottom: 40px;
@@ -64,6 +75,14 @@
   background: -moz-linear-gradient(#DB5336, #EB8320); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#DB5336, #EB8320); /* Standard syntax */
 }
+@media only screen and (max-width: 500px) {
+  .homepage_container .view a {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-right: 0px;
+  }
+}
 
 .homepage_container .view a:hover {
   background-color: #fff !important;
@@ -79,6 +98,13 @@
   color: #fff !important;
   text-transform: capitalize;
   font-weight: bold;
+}
+@media only screen and (max-width: 500px) {
+  .homepage_container .contact a {
+    margin-top: 0px;
+    width: 100%;
+    display: inline-block;
+  }
 }
 
 .homepage_container .contact a:hover {
