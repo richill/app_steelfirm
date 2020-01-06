@@ -21,9 +21,14 @@
 
 .header_container .upper_header .upper_inner_header {
   background-color: #2a2a2a;
-  width: 1200px;
-  margin: auto !important;
-  padding: 3px 0px;
+  padding: 3px 15px;
+}
+@media only screen and (min-width: 1200px) {
+  .header_container .upper_header .upper_inner_header {
+    width: 1200px;
+    padding: 3px 0px;
+    margin: auto !important;
+  }
 }
 
 .header_container .upper_header .left_content .fa-map-marker {
@@ -35,11 +40,22 @@
   color: #fff;
   margin: 0px 8px;
 }
+@media only screen and (max-width: 1200px) {
+  .header_container .left_content .divider {
+    display: none;
+  }
+}
 
 .header_container .upper_header .address {
   color: #fff;
   font-size: 11px;
   line-height: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .header_container .upper_header .second_address  {
+    display: none;
+  }
 }
 
 .header_container .upper_header .address a {
